@@ -1,31 +1,33 @@
 nav li{
 	display: inline;
-	font-family: sans-serif;
+	font-family: B612 Mono;
 }
 
 li a{
 	text-decoration: none;
-	font-size:17px;
+	font-size:19px;
 	color:white;
 }
 
 img{
-	width:110%;
-	
+	width:90%;
+
+		
 }
 
 .hero-image{
-	background-image: url("/home/sindhura/Desktop/html/day2/georgetown.jpg");
-	height:50%;
+	background-image: url("../img/georgetown.jpg");
+	height:70%;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 	margin-top:100px;
+	margin-bottom: 30px;
 }
 
 .hero-text{
   text-align: center;
-  font-family: arial;
+  font-family: B612 Mono;
   font-style:italic;
   top: 30%;
   left: 5%;
@@ -38,8 +40,11 @@ body{
 	background-color: #d3d3d3;
 }
 
-p{
-	font-size: 15px;
+.main p{
+	font-family: B612 Mono;
+	width:90%;
+	text-align: justify;
+	font-size: 17px;
 }
 
 .wrap{
@@ -62,13 +67,15 @@ footer img{
 	margin-top:20px;
 	float:right;
 }
+
 .fixed-footer{
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  background:#5a575a;
+  background: #5a575a;
 }
+
 header{
 	background: #5a575a;
 	line-height: 80px;
@@ -77,7 +84,7 @@ header{
 
 header p{
 	font-size:30px;
-	font-family: arial;
+	font-family: B612 Mono;
 	font-style: italic;
 }
 
@@ -88,6 +95,11 @@ header p{
 	width:100%;
 }
 
+.para img{
+	width:100%;
+}
 .para{
+	font-family: B612 Mono;
+	font-size: 17px;
 	margin-bottom: 90px;
 }
