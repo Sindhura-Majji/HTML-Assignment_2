@@ -1,0 +1,93 @@
+nav li{
+	display: inline;
+	font-family: sans-serif;
+}
+
+li a{
+	text-decoration: none;
+	font-size:17px;
+	color:white;
+}
+
+img{
+	width:110%;
+	
+}
+
+.hero-image{
+	background-image: url("/home/sindhura/Desktop/html/day2/georgetown.jpg");
+	height:50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin-top:100px;
+}
+
+.hero-text{
+  text-align: center;
+  font-family: arial;
+  font-style:italic;
+  top: 30%;
+  left: 5%;
+  color: black;
+  font-size: 50px;
+}
+body{
+	margin-left: 20px;
+	margin-right: 20px;
+	background-color: #d3d3d3;
+}
+
+p{
+	font-size: 15px;
+}
+
+.wrap{
+	background-color: #5a575a;
+	color:white;
+}
+.wrap ul{
+	position:relative;
+	left:390px;
+}
+
+.hero-text p{
+	font-size: 60px;
+}
+footer img{
+
+	height:50px;
+	width:55px;
+	padding-right: 20px;
+	margin-top:20px;
+	float:right;
+}
+.fixed-footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background:#5a575a;
+}
+header{
+	background: #5a575a;
+	line-height: 80px;
+
+}
+
+header p{
+	font-size:30px;
+	font-family: arial;
+	font-style: italic;
+}
+
+.fixed-header{
+	color: white;
+	position: fixed;
+	background-color:#5a575a;
+	width:100%;
+}
+
+.para{
+	margin-bottom: 90px;
+}
